@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://demo.makitweb.com/html2canvas/html2canvas-master/dist/html2canvas.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="reviews_wrapp">
+    <h2 class="app-header">Отзывы</h2>
+    <a id="myBtn" class="add-button" href="#popup1" >Оставить отзыв</a>
+               <div id='reviews'></div>
+</div>
+
+<!--<script>
+    document.onkeydown = function(e) {
+    //если нажали Ctrl+q
+        if (( event.ctrlKey && event.keyCode == "Q".charCodeAt(0))) {
+            edit();
+            return false;
+        }
+    };
+    function edit() {
+        reviews_wrapp.style.display = '';
+    }
+</script>-->
+
+    <script type="text/babel" src="notes.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
+    <script src="custom.js"></script>
+</body>
+</html>
